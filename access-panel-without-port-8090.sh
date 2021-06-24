@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Panel Domain/Subdomain (without http/https)?
+echo "Panel Domain/Subdomain without http/https"
 read var1
 echo -e "extprocessor cyberpanel { \n" >> /usr/local/lsws/conf/httpd_config.conf
 echo -e "  type                    proxy\n" >> /usr/local/lsws/conf/httpd_config.conf
